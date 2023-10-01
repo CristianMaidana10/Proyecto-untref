@@ -1,5 +1,5 @@
-const jsonProducts = localStorage.getItem("products")
-  ? JSON.parse(localStorage.getItem("products"))
+const jsonProductsPromise = localStorage.getItem("products")
+  ? Promise.resolve(JSON.parse(localStorage.getItem("products")))
   : fetch("data/products.json")
       .then((response) => {
         if (!response.ok) {
@@ -11,7 +11,7 @@ const jsonProducts = localStorage.getItem("products")
         console.error("Fetch error:", error);
       });
 
-jsonProducts
+jsonProductsPromise
   .then((products) => {
     for (let i = 0; i < 12 && i < products.length; i++) {
       const product = products[i];
@@ -48,7 +48,7 @@ jsonProducts
         } else {
           scrollToTopButton.style.display = "none";
         }
-      })
+      });
 
       const viewProductButton = document.createElement("button");
       viewProductButton.innerText = "Ver";
@@ -62,9 +62,9 @@ jsonProducts
           stock: product.stock,
         };
 
-        localStorage.setItem("producto", JSON.stringify(cacheProduct));
+        localStorage.setItem("details", JSON.stringify(cacheProduct));
 
-        location.href = "producto.html";
+        location.href = "details.html";
       });
 
       card.appendChild(viewProductButton);

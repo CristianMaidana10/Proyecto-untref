@@ -2,19 +2,52 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Detalle de producto o servicio</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Georgia:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <title>Detalles del Producto - Zarpatillas</title>
   </head>
   <body>
-    <header>
-      <h1>Detalle de producto o servicio</h1>
+    <header class="header">
+      <div class="logo-container">
+        <a href="index.html">
+        <img src="img/logo.png" alt="Logo" class="logo" />
+        <div class="logo-text">
+          <h1>Zarpatillas</h1>
+          <p class="slogan">Zapatillas zarpadas!</p>
+        </div>
+      </div>
     </header>
     <main>
-      <h2>{{ product.name }}</h2>
-      <p>{{ product.description }}</p>
-      <img src="{{ product.image }}" alt="{{ product.name }}" />
-      <p>{{ product.price }}</p>
-      <a href="index.html">Volver al listado</a>
+      <div class="product-details-container">
+        <div class="product-image">
+          <img src="" alt="Producto" id="productImage">
+        </div>
+        <div class="product-details">
+          <h2 id="productName"></h2>
+          <p class="description" id="productDescription"></p>
+          <p class="price" id="productPrice"></p>
+          <p class="stock" id="productStock"></p>
+        </div>
+      </div>
     </main>
+    <footer class="footer">
+      <div class="left">
+        <p>&copy; 2023 - Todos los derechos reservados</p>
+      </div>
+      <div class="right">
+        <a href="#" class="social-icon"><img src="img/instagram.png" alt="Instagram"></a>
+        <a href="#" class="social-icon"><img src="img/twitter.png" alt="Twitter"></a>
+        <a href="#" class="social-icon"><img src="img/facebook.png" alt="Facebook"></a>
+      </div>
+    </footer>
+    <div id="scrollToTopContainer">
+      <button id="scrollToTopButton" class="scroll-to-top-button">
+        &#9650;
+      </button>
+    </div>
+    <script src="js/details.js"></script>
   </body>
 </html>

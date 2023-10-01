@@ -1,0 +1,61 @@
+/* Estilos generales del encabezado */
+.header {
+    background-color: #1e90ff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    max-width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header .logo-text h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header .logo-text p.slogan {
+    font-style: italic;
+    margin: 0;
+}
+
+/* Estilos generales del pie de página */
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer-left {
+    margin-right: 10px;
+}
+
+.right {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover img {
+    transform: scale(1.1);
+}
