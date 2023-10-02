@@ -32,10 +32,10 @@ body {
   box-sizing: border-box;
   background-color: var(--color-secondary);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  height: 100%; /* Establece una altura fija para las tarjetas */
+  height: 100%;
   display: flex;
-  flex-direction: column; /* Alinea el contenido verticalmente */
-  justify-content: space-between; /* Alinea el contenido verticalmente */
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card h3 {
@@ -100,27 +100,6 @@ body {
   background-color: #1c84b5;
 }
 
-.product-details-container {
-  display: flex;
-  margin: 20px;
-}
-
-.product-image {
-  flex: 1;
-  text-align: center;
-}
-
-.product-image img {
-  max-width: 100%;
-  height: auto;
-}
-
-.product-details {
-  flex: 1;
-  padding: 20px;
-}
-
-
 @media screen and (max-width: 1024px) {
   #productsList {
     grid-template-columns: repeat(3, 1fr);
@@ -136,17 +115,5 @@ body {
 @media screen and (max-width: 360px) {
   #productsList {
     grid-template-columns: 1fr;
-  }
-
-  .product-details-container {
-    flex-direction: column;
-  }
-  
-  .product-details {
-    order: 1;
-  }
-  
-  .product-image {
-    order: 2;
   }
 }

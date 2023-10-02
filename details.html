@@ -3,17 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Georgia:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Georgia:wght@400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/details.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-DIe+3vu5zEwEBb7FG+1Uc4WCcy6jgCjULlPpBfCEByHSsOr31fE1TGfUK/S1St5fpRWkr9iDU5/ekQTq+ywF"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Detalles del Producto - Zarpatillas</title>
   </head>
   <body>
     <header class="header">
       <div class="logo-container">
         <a href="index.html">
-        <img src="img/logo.png" alt="Logo" class="logo" />
+          <img src="img/logo.png" alt="Logo" class="logo" />
+        </a>
         <div class="logo-text">
           <h1>Zarpatillas</h1>
           <p class="slogan">Zapatillas zarpadas!</p>
@@ -23,13 +34,20 @@
     <main>
       <div class="product-details-container">
         <div class="product-image">
-          <img src="" alt="Producto" id="productImage">
+          <img src="" alt="Producto" id="productImage" />
         </div>
         <div class="product-details">
           <h2 id="productName"></h2>
           <p class="description" id="productDescription"></p>
           <p class="price" id="productPrice"></p>
           <p class="stock" id="productStock"></p>
+          <div id="starsContainer">
+            <i class="fas fa-star" style="color: #eabe3f"></i>
+            <i class="fas fa-star-half-alt" style="color: #eabe3f"></i>
+            <i class="far fa-star" style="color: #eabe3f;"></i>
+            <span class="score" id="productScore"></span>
+          </div>
+          <button id="goBackButton" class="back-button">Volver</button>
         </div>
       </div>
     </main>
@@ -38,16 +56,18 @@
         <p>&copy; 2023 - Todos los derechos reservados</p>
       </div>
       <div class="right">
-        <a href="#" class="social-icon"><img src="img/instagram.png" alt="Instagram"></a>
-        <a href="#" class="social-icon"><img src="img/twitter.png" alt="Twitter"></a>
-        <a href="#" class="social-icon"><img src="img/facebook.png" alt="Facebook"></a>
+        <a href="#" class="social-icon"
+          ><img src="img/instagram.png" alt="Instagram"
+        /></a>
+        <a href="#" class="social-icon"
+          ><img src="img/twitter.png" alt="Twitter"
+        /></a>
+        <a href="#" class="social-icon"
+          ><img src="img/facebook.png" alt="Facebook"
+        /></a>
       </div>
     </footer>
-    <div id="scrollToTopContainer">
-      <button id="scrollToTopButton" class="scroll-to-top-button">
-        &#9650;
-      </button>
-    </div>
     <script src="js/details.js"></script>
+    <script src="https://kit.fontawesome.com/8fc6f9fed6.js" crossorigin="anonymous"></script>
   </body>
 </html>

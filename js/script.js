@@ -60,11 +60,15 @@ jsonProductsPromise
           image: product.image,
           price: product.price,
           stock: product.stock,
+          score: product.score
         };
 
-        localStorage.setItem("details", JSON.stringify(cacheProduct));
+        localStorage.setItem(
+          `product_${product.id}`,
+          JSON.stringify(cacheProduct)
+        );
 
-        location.href = "details.html";
+        location.href = `details.html?id=${product.id}`;
       });
 
       card.appendChild(viewProductButton);

@@ -5,7 +5,8 @@
     "description": "Lleva la energía Jordan en los pies este invierno. El exquisito cuero de pleno grano con detalles brillantes hacen que este par brille como las luces navideñas.Beneficios•La tecnología Nike Air absorbe el impacto para brindar amortiguación en cada paso.•La parte superior de cuero autentico y sintético y tela brinda durabilidad.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/702810-800-800?v=638233933446270000&width=800&height=800&aspect=true",
     "price": 99.999,
-    "stock": 20
+    "stock": 20,
+    "score": 5
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "Inspirada en el AJ1 original, esta edición de corte mid mantiene el look icónico que te encanta, y los colores selectos y el cuero impecable le dan una identidad distintiva.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/702812-800-800?v=638233933534500000&width=800&height=800&aspect=true",
     "price": 91.999,
-    "stock": 10
+    "stock": 10,
+    "score": 4
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "description": "El Air Jordan 1 Retro High renueva el calzado clásico, y te ofrece un nuevo look con una sensación familiar. Los materiales premium con nuevos colores y texturas aportan un toque moderno al favorito de siempre.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/633461-800-800?v=638210675194030000&width=800&height=800&aspect=true",
     "price": 134.999,
-    "stock": 15
+    "stock": 15,
+    "score": 5
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "description": "Inspirado en el original que se lanzó en 1985, el Air Jordan 1 Low ofrece un estilo clásico impecable que se resulta familiar, pero renovado. Con un diseño icónico que combina perfectamente con cualquier ajuste, este calzado garantiza que siempre estará a la moda.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/440278-800-800?v=638145715008870000&width=800&height=800&aspect=true",
     "price": 83.999,
-    "stock": 25
+    "stock": 25,
+    "score": 4
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "description": "Diseñado para recorrer las calles con la comodidad y actitud en mente, el Jordan Air 200E combina la ultima tecnologia con materiales duraderos, a la vez que se mantiene fiel al ADN Jordan. El estilo de corte low combina geometria visual con Max Air para brindar un andar elegante y versatil.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/698484-800-800?v=638229588274170000&width=800&height=800&aspect=true",
     "price": 99.999,
-    "stock": 12
+    "stock": 12,
+    "score": 3.5
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "description": "El Air Jordan 5 Retro revive el diseño original inspirado en los aviones de combate de la Segunda Guerra Mundial. Cuenta con el mismo perfil icónico, elementos de cuero auténtico y una manga de tela que ofrece un ajuste cómodo y ceñido.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/378259-800-800?v=638138920018070000&width=800&height=800&aspect=true",
     "price": 143.999,
-    "stock": 25
+    "stock": 25,
+    "score": 5
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "description": "Como adición nueva a la línea 23 Engineered, el Granville Pro entra en escena y ofrece el concepto de uso diario. La mezcla de materiales retro está inspirada en los días universitarios de MJ, desde la gamuza clásica, hasta la tela cortada a láser y la malla ventilada. La espuma expuesta en la lengüeta y el clip del talón deportivo agregan un estilo retro y futurista. ",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/543357-800-800?v=638162174838230000&width=800&height=800&aspect=true",
     "price": 78.399,
-    "stock": 15
+    "stock": 15,
+    "score": 4
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "description": "Destácate entre la multitud. El Air Jordan 5 Retro trae de regreso un lanzamiento codiciado de 2006, con un diseño renovado con reflectividad gris y, por supuesto, detalles en color verde brillante. El cuero sintético, los materiales textiles duraderos y los ojales de los cordones de plástico proporcionan estructura a este look clásico para usar fuera de la cancha.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/156959-800-800?v=638086299197630000&width=800&height=800&aspect=true",
     "price": 143.999,
-    "stock": 12
+    "stock": 12,
+    "score": 3
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "description": "El calzado legendario tiene un look inspirado en la herencia. El Air Jordan 3 Retro, con un giro a la combinación de colores (Black Cement), se viste con uno de los colores más icónicos de la marca.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/165552-800-800?v=638088726738200000&width=800&height=800&aspect=true",
     "price": 143.999,
-    "stock": 7
+    "stock": 7,
+    "score": 2
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "description": "No puedes dejar de lucir fresco en un Low que fusiona la artesanía de alta calidad con características de tecnología avanzada. La tela ripstop ventilada y la gamuza sintética suave se combinan con un interior suave. ¿El resultado? El look low clásico y la comodidad premium que esperas de la marca Jordan.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/700056-800-800?v=638229705772530000&width=800&height=800&aspect=true",
     "price": 103.999,
-    "stock": 4
+    "stock": 4,
+    "score": 2
   },
   {
     "id": 11,
@@ -85,15 +95,17 @@
     "description": "El Air Jordan Legacy 312 rinde homenaje al legado de Michael Jordan con este reconocimiento al 312, el código de área de Chicago. El diseño es una combinación moderna de elementos Jordan icónicos.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/657972-800-800?v=638221801065970000&width=800&height=800&aspect=true",
     "price": 103.999,
-    "stock": 30
+    "stock": 30,
+    "score": 5
   },
   {
     "id": 12,
-    "name": "Jordan Delta 3 Low",
-    "description": "No puedes dejar de lucir fresco en un Low que fusiona la artesanía de alta calidad con características de tecnología avanzada. La tela ripstop ventilada y la gamuza sintética suave se combinan con un interior suave. ¿El resultado? El look low clásico y la comodidad premium que esperas de la marca Jordan.",
-    "image": "https://nikearprod.vtexassets.com/arquivos/ids/590369-800-800?v=638170868508170000&width=800&height=800&aspect=true",
-    "price": 103.999,
-    "stock": 12
+    "name": "Air Jordan 5 Retro SE",
+    "description": "Año tras año, temporada tras temporada, el AJ5 ha sido el centro de tus looks favoritos. Ahora, el amado diseño de Tinker Hatfield está de regreso con una combinación de colores universitarios que celebra los comienzos de MJ. El azul universitario rinde homenaje al alma máter de Jordan desde la parte superior hasta la plantilla y se destaca con una etiqueta de tejido Woven que dice (Team Jordan) en la parte posterior. El forro actualizado aporta un toque muy agradable al pie, a la vez que los detalles impecables del original, como las aberturas laterales, la entresuela de espiguilla y el cierre de agujetas se complementan con el atractivo clásico que tanto te gusta.",
+    "image": "https://nikearprod.vtexassets.com/arquivos/ids/532359-800-800?v=638161392071800000&width=800&height=800&aspect=true",
+    "price": 155.999,
+    "stock": 12,
+    "score": 3
   },
   {
     "id": 13,
@@ -101,15 +113,17 @@
     "description": "El Air Jordan 12 Retro es el regreso del famoso diseño 1996 de Tinker Hatfield, el primero en llevar la amortiguación Zoom Air a la línea emblemática. Materiales premium en la parte superior para una actualización estacional.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/702688-800-800?v=638233930519100000&width=800&height=800&aspect=true",
     "price": 143.999,
-    "stock": 24
+    "stock": 24,
+    "score": 3
   },
   {
     "id": 14,
-    "name": "Jordan Delta 3 Low",
-    "description": "No puedes dejar de lucir fresco en un Low que fusiona la artesanía de alta calidad con características de tecnología avanzada. La tela ripstop ventilada y la gamuza sintética suave se combinan con un interior suave. ¿El resultado? El look low clásico y la comodidad premium que esperas de la marca Jordan.",
-    "image": "https://nikearprod.vtexassets.com/arquivos/ids/590369-800-800?v=638170868508170000&width=800&height=800&aspect=true",
-    "price": 103.999,
-    "stock": 12
+    "name": "Air Jordan 1 Zoom Comfort 2",
+    "description": "La gamuza premium y la espuma Formula 23 exclusiva de la marca Jordan se unen para brindarte un AJ1 mucho más lujoso (y cómodo). Con este calzado no necesitas elegir entre estilo o comodidad, lo cual está bien porque te mereces las dos cosas.",
+    "image": "https://nikearprod.vtexassets.com/arquivos/ids/543459-800-800?v=638162176578800000&width=800&height=800&aspect=true",
+    "price": 107.999,
+    "stock": 12,
+    "score": 5
   },
   {
     "id": 15,
@@ -117,6 +131,7 @@
     "description": "El Air Jordan 13 Retro trae de vuelta el memorable calzado de juego que Michael Jordan usó durante la temporada 97-98 al alcanzar su sexto título del campeonato. Tiene presentes todos los detalles clásicos, como el revestimiento acolchado, la icónica entresuela esculpida y el ojo holográfico.",
     "image": "https://nikearprod.vtexassets.com/arquivos/ids/157335-800-800?v=638086304390730000&width=800&height=800&aspect=true",
     "price": 143.999,
-    "stock": 12
+    "stock": 12,
+    "score": 5
   }
 ]
