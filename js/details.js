@@ -27,9 +27,6 @@ if (productId) {
 
     const productScore = selectedProduct.score;
 
-    console.log(selectedProduct);
-    console.log("productScore:", productScore);
-
     const starsContainer = document.getElementById("starsContainer");
     starsContainer.innerHTML = "";
 
@@ -59,12 +56,10 @@ if (productId) {
       starsContainer.appendChild(star);
     }
 
-    console.log("fullStars:", fullStars);
-    console.log("halfStar:", halfStar);
-
     const goBackButton = document.getElementById("goBackButton");
 
     goBackButton.addEventListener("click", () => {
+      localStorage.clear();
       window.location.href = "index.html";
     });
   } else {
